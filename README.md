@@ -158,7 +158,7 @@ sell on the market. It can only be the raw material <resource>, that corresponds
 
 Input: harvest
 
-Output: <resource>;<gold>  If successful, the sold raw material (flour,
+Output: <resource>;<gold> If successful, the sold raw material (flour,
 egg or milk) and the player's current gold supply. Both editions will
 separated by exactly one semicolon.
 
@@ -166,8 +166,8 @@ The buy command
 
 With the buy command the active player can buy raw materials from the market, provided he has enough gold pieces available.
 
-Input:  buy <resource>
-Output:  <price>;<gold>   If successful, the current price of the raw material is output
+Input: buy <resource>
+Output: <price>;<gold> If successful, the current price of the raw material is output
 as well as the current gold supply of the player after purchasing the associated resource.
 
 The prepare command
@@ -177,10 +177,10 @@ bread, bun, crepe, pudding or cake), provided there are enough raw materials ava
 
 Input: prepare <recipe>
 
-Output: <gold>   If successful, the player's current gold supply is issued.
+Output: <gold> If successful, the player's current gold supply is issued.
 The raw materials used for this are taken from his raw material supply.
 
-The can - prepare? Command
+The can-prepare? command
 
 With the "can-prepare?" Command the active player can determine which dishes he is based on
 can prepare on his raw material supply.
@@ -197,18 +197,18 @@ The parameterless show-market command lists the three raw materials.
 
 Input: show-market
 
-Output: <number>;<resource>   If successful, the raw materials are labeled line by line with the
+Output: <number>;<resource> If successful, the raw materials are labeled line by line with the
 existing number <number> as a natural number in the closed interval [0.5] and with the
 Identifiers. All outputs in one line are separated by exactly one semicolon.
 
 The show-player command
 
-The show - player command shows off the supply of gold pieces and raw materials of a player Px
+The show-player command shows off the supply of gold pieces and raw materials of a player Px
 x={2,3,4}.
 
 Input: show-player <Px>
 
-Output: <gold>;<flour>;<egg>;<milk>   If successful, the number of
+Output: <gold>;<flour>;<egg>;<milk> If successful, the number of
 gold pieces, then the number of raw materials flour, eggs and milk of a player Px in a row
 issued. All outputs in one line are separated by exactly one semicolon.
 
