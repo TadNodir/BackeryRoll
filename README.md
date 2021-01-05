@@ -57,21 +57,21 @@ A3. Recipes
 
 The recipes indicate which raw materials a player needs to prepare a dish. As well each player receives a profit for the production, 
 which is indicated in the number of gold pieces. The raw materials used (flour), eggs (egg), milk (milk)
-come exclusively from the player's stock. (See the 2. picture). Every player who has prepared all 7 dishes receives 25 gold once.
+come exclusively from the player's stock. (See the 2. picture)(Translation from german: Gericht - Food, Mehl - flour, Eier - eggs, Milch - milk, Gewinn - profit).
+Every player who has prepared all 7 dishes receives 25 gold once.
 
 
 A4. Market
 
 The market determines the prices of each of the three raw materials (flour), eggs (egg), milk (milk).
-3. picture shows the initial occupancy of the market at the start of the game. The active player can only buy or sell the raw material on the corresponding playing field after rolling the die. 
-I.e. Flour on the mill, eggs on the chicken coop, milk on the cow pasture. It can be 0 to 5
+3. picture shows the initial occupancy of the market at the start of the game. The active player can only buy or sell the raw material on the corresponding playing field after rolling the die. I.e. Flour on the mill, eggs on the chicken coop, milk on the cow pasture. It can be 0 to 5
 Units of every commodity exist in the market.
 
 Selling: 
 
 If the active player has produced a resource and wants to sell it on the market,
 he puts it on the market on the next free space in the column belonging to the raw material (see
-picture 3). The raw materials are placed from the bottom to up. Used in the table above
+picture 3)(Translation from german: aktueller Preis - current price, Goldstück - golden coin). The raw materials are placed from the bottom to up. Used in the table above
 Now a milk is produced on the field cow pasture and sold at the market, this is placed on
 the 3rd row of the milk column. Selling a raw material brings in the active player
 gold piece as a profit. The production of a raw material and its sale on the market represent one
@@ -92,7 +92,7 @@ and has sold any.
 A5. Command line arguments
 
 Your program expects command line arguments.
-The first command line argument defines the number of players {2,3,4}.
+The first command line argument defines the number of players x={2,3,4}.
 Then, beginning with the starting field S, the order of the playing fields for the mill
 M, hen house H and cow pasture C set. All playing fields are marked with exactly one semicolon
 separated. So, the fields for the game are arranged in a circle starting from Starting field.
@@ -233,6 +233,11 @@ Input: quit
 
 Output: If successful, there is no issue. In the event of an error, a meaningful error message is displayed
 starting with error, output.
+
+
+
+The Picture4 is an example sequence of a game round with 3 players and one playing field
+with the configuration S; M; C; H. There are three complete moves.
 
 
 Thanks for your interest and reading this till the end! Good luck!
